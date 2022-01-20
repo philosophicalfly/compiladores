@@ -1,0 +1,25 @@
+// Aquecimento
+// imprimir 10 linhas, de 1 a 10, cada uma com os n�meros de um ao numero da linha
+
+// TASK 0 
+// Imprimir uma fun��o em C com n par�metros int
+
+// TASK 1 
+// contar quantos n�meros existem 
+// arquivo in1.txt
+// resposta: 33
+
+
+// TASK 2 
+// imprimir quantos n�meros existem em cada linha l�gica terminada por ;
+// arquivo in2.txt
+// resposta: 1 1 1 3 12 3 5 2 1 2 1 4 2 2 2 3 3 1
+
+// TASK 3 
+// Fazer a tarefa 2 contando o n�mero de linhas f�sicas no mesmo arquivo in2.txt
+
+
+// TASK 4 
+// Ler o arquivo in4.txt e fazer a soma dos n�meros em cada n�vel de par�nteses (contando ou n�o os que est�o dentro de outro n�vel), imprimindo o n�mero da linha onde inicia cada grupo entre par�nteses. 
+
+
