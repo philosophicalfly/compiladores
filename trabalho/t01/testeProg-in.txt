@@ -1,0 +1,14 @@
+int x = 10;
+char -_x-i-s-_ = 'a';
+while (x = 10; x < 0; x = x - 1) {
+    print(x);
+}
+\*  
+    Let some big 
+    comments here
+    to ignore 
+*\
+if (x <= 10){
+    \\  Let a smaller comment here
+    return x / 2;
+}

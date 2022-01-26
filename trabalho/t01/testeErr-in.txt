@@ -1,0 +1,10 @@
+int xx" = 10;
+char xis = 'a;
+while (x = 0; x < 10; x++) {
+    print(x);
+}
+if (x9 <= 10){
+    return;
+}
+\*  
+comment with no closing
