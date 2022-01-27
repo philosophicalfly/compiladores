@@ -1,8 +1,13 @@
 char
+chara
 int
+int2
+2int
 float
 
 if
+if(
+if1
 then
 else
 while

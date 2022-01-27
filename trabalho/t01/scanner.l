@@ -51,18 +51,13 @@ return                              {return KW_RETURN;}
 '([^'])'                            {hashInsert(yytext, LIT_CHAR); return LIT_CHAR;}
 \"(\\.|[^"\\\n])*\"                 {hashInsert(yytext, LIT_STRING); return LIT_STRING;}
 
-[a-z0-9_\-]+                        {return TOKEN_ERROR;} // combination of chars and numbers
-'([a-z0-9_\-]+)                     {return TOKEN_ERROR;} // opening char without closing
-([a-z0-9_\-]+)'                     {return TOKEN_ERROR;} // closing char without opening
-\"([a-z0-9_\-]+)                    {return TOKEN_ERROR;} // opening string without closing
-([a-z0-9_\-]+)\"                    {return TOKEN_ERROR;} // closing string without opening
-.                                   {return TOKEN_ERROR;}
-
 "\\*"                               { BEGIN(COMMENT); }
 <COMMENT>"*\\"                      { BEGIN(INITIAL); }
 <COMMENT>"\n"                       { ++line; }
 <COMMENT>.
 "\\\\".*
+
+.                                   {return TOKEN_ERROR;}
 
 %% 
 
