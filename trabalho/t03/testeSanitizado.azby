@@ -1,0 +1,216 @@
+char c: 'x';
+char d: 100;
+int a: 'A';
+int i: 1;
+int v[10]: 'a' 0 0 0 0 0 0 0 0 0;
+int matrix[100]; 
+float f: 2/3;
+float a[1]: 7 'a';
+int a: 0;
+char b: 'a';
+float c: 1 / 3;
+int fun: 1;
+int fun () um = 1
+int func(int a) print(a)
+int fun () {
+}
+int fun () {
+;
+}
+int fun (int a, int b) {
+    b = 1 > 2 < a >= 4 <= 5;
+}
+int fun (int a, int b, float c) {
+    a = 1 + 2 * 3 - 4 / 5;
+    b = 1 > 2 < a >= 4 <= 5;
+    c = 1 == 2;
+    d = 1 != 2;
+    e = (10 - 5) * 2;
+    f = incn(a, 2, 1, 4, 5, 3, func(maisuma));
+    g = read;
+    h[i] = func(maisuma);
+    h[func(maisuma, 123, 234)] = func(maisuma);
+    j = k[l];
+    print (a);
+    print 1;
+    print v[5];
+    print "Digite um numero: \n";
+    print "Incrementado algumas vezes a fica " , a ,"\n";
+    return multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    goto label;
+    goto label;
+    goto label-x;
+    if a == 15 then
+    {
+        label-x:
+        a = a - 1;
+        print "A era=15\n";
+    };
+    if (i == 100) then
+    {
+        print "Nao tem como isso...\n";
+    }
+    else
+        print "OK!\n";
+    if a > 0 then 
+        goto label-x;
+}
+int fun () if 1 then
+else 
+aaaaaaaaaaaaaaa = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois))
+int fun () {
+    {
+        ;
+        };
+    {
+        ;
+        };
+    ;
+    ;
+    ;
+    ;
+    ;
+    {
+        a = 1;
+    };
+    label:
+    i = a;
+}
+int fun () if 1 then 
+if 1 then 
+dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois))
+else 
+dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois))
+int fun (int a, int b, float c) {
+    if 1 then 
+    else 
+    ;
+    um = 1;
+    dois = um_mais_um;
+    um_mais_um = 1 + 1;
+    quatro = um_mais_um * dois;
+    oito = multiplica_por(2, dois);
+    dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    trinta_e_dois = dezesseis + oito + quatro + dois + 1 + um;
+}
+int fun (int a, int b, float c) {
+    print "stringDos123guri@#$%*()", a, a,  12,  multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois)), feio;
+}
+int fun (int a, int b, float c) {
+    return multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    return a;
+    return a; 
+    return 12; 
+}
+int fun (int a, int b, float c) {
+    um_mais_um = 1 + 1;
+    return a;
+    um = 1;
+    dois = um_mais_um;
+    trinta_e_dois = dezesseis + oito + quatro + dois + 1 + um;
+    print "stringDos123guri@#$%*()",a,a, 12, multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois)),feio;
+    return multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    return a; 
+    quatro = um_mais_um * dois;
+    oito = multiplica_por(2, dois);
+    dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    return 12; 
+}
+int fun () {
+    if 1 then 
+        print 1;
+    if 1 then 
+        return a;
+    if 1 then 
+        dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    if 1 then 
+        dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois))
+    else
+        dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    if 1 then 
+    {
+        return 1;
+    } 
+    else 
+    {
+        dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    };
+    if 1 then 
+        elba-ramalho = 1;
+    if 1 then 
+        else
+                {
+            ;
+        };
+    if 1 then 
+        elba-ramalho = 1 
+        else
+        ;
+}
+int fun () {
+    while 1;
+    while 1;
+    while 1 while 1 while 1 {
+                print 1;
+                a = read;
+            };
+    while 1 return a;
+    while 1 dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    while 1  {
+        return 1;
+        dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    };
+}
+int fun () {
+    label:
+    if 1 then 
+    {
+        eu = soulegal - 1;
+        label:
+    };
+    label-heyhey:
+    goto label;
+    while 1 {
+        eu = soulegal - 1;
+        label:
+        eu = soulegal - 1;
+        dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    };
+    while x < 10 {
+        goto label;
+        label:
+    };
+}
+int main () {
+    a = 0;
+    a = a - i;
+    a = 5;
+    v[a] = 55;
+    print v[5];
+    print a;
+    i = 2;
+    print "Digite um numero: \n";
+    a = read;
+    while i<10     {
+        i = incn(i,1);
+        a = incn(a,1);
+    };
+    print "Incrementado algumas vezes a fica " , a ,"\n";
+    if a==15 then
+    {
+        label-x:
+        a = a - 1;
+        print "A era=15\n";
+    };
+    if (i==100) then
+    {
+        print "Nao tem como isso...\n";
+    }
+    else
+        print "OK!\n";
+    if a > 0 then 
+        goto label-x;
+}
+int incn (int x , int n) {
+    return x+n;
+}
