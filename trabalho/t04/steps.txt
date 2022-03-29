@@ -1,0 +1,53 @@
+Há três tipos diferentes de identificadores
+  escalares, vetores, funções
+Há três tipos de dados para declarações
+  char, int, float
+Há dois tipos de dados incompatíveis entre si
+  inteiros e booleanos
+Há três tipos de literais
+  inteiros, caracteres, strings
+
+Literais string só devem ser usados no comando print, e isso foi limitado na sintaxe;
+
+Literais inteiros e caracteres (char, int) são intercambiáveis, compatíveis, e podem
+aparecer em quaisquer expressões aritméticas, e serem processados como dados
+numéricos inteiros ou convertidos de/para ponto flutuante.
+
+No acesso a vetor, entretanto, é necessário garantir que o índice seja um valor inteiro.
+
+Expressões que resultem em valores booleanos ou float não podem ser usadas como
+índice de vetor. No caso do topo da árvore ser um operador aritmético, para determinar
+se o valor é inteiro ou flutuante (não permitido), é necessário processar a árvore
+recursivamente potencialmente até (a partir das) folhas, para ter essa informação;
+
+Exceto no índice de vetores, os tipos de dados numéricos inteiros em em ponto
+flutuante podem ser usados e convertidos livremente em expressões aritméticas, ou
+seja, são compatíveis, podendo ser também usados como argumentos para parâmetros
+definidos assim. O resultado de cada operação sempre terá o tipo de dado mais amplo
+e preciso.
+
+Nas expressões, é necessário verificar os tipos corretos dos operandos distinguindo
+entre os tipos numéricos e booleanos (resultado de operadores relacionais), que são
+incompatíveis entre si.
+
+Existe a possibilidade da identificação ser feita pelo tipo do nodo filho da árvore (tipo
+do operador) ou pelo tipo de dad
+
+OK   variáveis redeclaradas
+OK   anotar tipo (natureza) nas tabela hash
+OK   anotar tipo de dado (dataType) na tabela hash
+OK   variáveis não-declaradas
+OK   verificar natureza, se
+OK   - escalares são usados como escalares
+OK   - vetores são usados como vetores
+OK   - funções são usadas como funções
+OK   - não esqueça de verificar no lado direito (expressões) e no lado esquerdo (atribuições)
+OK   verificar tipos de dados nas expressões
+OK   verificar argumentos de chamada de função versus parâmetros
+OK   - não pode haver menos argumentos
+OK   - não pode haver mais argumentos
+OK   - os tipos devem ser compatíveis (não iguais, lembre-se)
+OK   verificar o tamanho e a lista de inicialização do vetor;
+OK   verificar tipo do valor de retorno da função
+OK   verificar índices dos vetores (não pode ser booleano, não pode ser float), tanto na expressão quanto na atribuição
+
