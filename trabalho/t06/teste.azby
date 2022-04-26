@@ -1,38 +1,18 @@
-int veci['b']: 1 2 3 4 5;
-int um_mais_um: 0;
-int retorno: 0;
-float floatinho: 1/2;
-int vec[5];
-int dois: 0;
-int quatro: 0;
-int oito: 0;
-int dezesseis: 0;
+int a: 0;
+int b: 20;
+int c: 1;
 
-int funcreal (int parama, int paramb) {
-    um_mais_um = ( 1 + 2 ) + ( 3 + 4 );
-    um_mais_um = 11 + 22 / 33;
-    if 1 < 2 then retorno = 111 else retorno = 222;
-    if 3 < 4 then retorno = 333;
-    while 5 < 6 {
-        retorno = 444;
-        retorno = read;
-        return retorno;
+int main () {
+    a = read;
+    if (0 != 0) then {
+        never:
+        a = 20;
     };
-    print "um", 2, "tres";
-    print (4);
-    return (2+3);
-}
-
-int funcfalse () {
-    um_mais_um = funcfalse();
-    um_mais_um = funcreal(111+111, 222);
-    label-x:
-    vec[1/2] = 2;
-    goto label-x;
-}
-
-int multiplica_por (int mul-um, int mul-dois) {}
-
-int func-atribs (int atribs) {
-      dezesseis = multiplica_por(multiplica_por(2, dois), multiplica_por(2, dois));
+    while (a < 10) {
+        a = a + 1;
+        print a;
+    };
+    if a == 10 then
+        goto never;
+    print a;
 }

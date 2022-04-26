@@ -74,11 +74,15 @@
     int yylex();
     int yyerror();
     void rootFunctions(AST* node){
+        TAC* code;
         astPrint(node, 0);
         check_and_set_declaration(node);
         check_undeclared();
         check_operands(node);
-        tacPrintBackwards(generateCode(node));
+        code = generateCode(node);
+        tacPrintBackwards(code);
+        code = tacReverse(code);
+        generateASM(code);
     }
 %}
 

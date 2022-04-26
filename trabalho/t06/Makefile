@@ -7,8 +7,8 @@
 # and #include "main.c" in the last part of the scanner.l
 #
 
-etapa5: lex.yy.o hash.o main.o y.tab.o ast.o semantic.o decompiler.o tacs.o 
-	gcc -Wall lex.yy.o hash.o main.o y.tab.o ast.o semantic.o decompiler.o tacs.o -o etapa5
+etapa6: lex.yy.o hash.o main.o y.tab.o ast.o semantic.o decompiler.o tacs.o 
+	gcc -Wall lex.yy.o hash.o main.o y.tab.o ast.o semantic.o decompiler.o tacs.o -o etapa6
 
 main.o: main.c
 	gcc -Wall -c main.c
@@ -41,4 +41,4 @@ y.tab.c: parser.y
 	yacc parser.y -d
 	
 clean:
-	rm lex.yy.c *.o y.tab.* etapa5
+	rm lex.yy.c *.o y.tab.* a.out out.s out.txt etapa6

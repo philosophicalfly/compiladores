@@ -346,6 +346,7 @@ void check_and_set_declaration(AST *node)
       secondSon->symbol->type = SYMBOL_VARIABLE;
       secondSon->symbol->dataType = datatype;
       secondSon->symbol->structureType = SRUCTURE_VARIABLE;
+      secondSon->symbol->initVal = thirdSon->symbol->text;
     }
     break;
 
@@ -363,6 +364,7 @@ void check_and_set_declaration(AST *node)
       secondSon->symbol->type = SYMBOL_VECTOR;
       secondSon->symbol->dataType = datatype;
       secondSon->symbol->structureType = SRUCTURE_VECTOR;
+      secondSon->symbol->initValues = node->son[3]->son[0];
     }
     break;
 

@@ -1,0 +1,14 @@
+int i: 2;
+int fib_um: 0;
+int fib_dois: 1;
+int res: 0;
+
+int main(){
+    while (i <= 10) {
+        i = i+1;
+        res = fib_um + fib_dois;
+        fib_um = fib_dois;
+        fib_dois = res;
+        print res;
+    };
+}
